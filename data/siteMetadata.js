@@ -1,25 +1,25 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'Journey beyond code',
+  author: 'Sujeet Singh',
+  headerTitle: 'Journey Beyond Code',
+  description:
+    'This is my journey beyond code. I write about my experiences, learnings, and thoughts on software development, technology, and life.',
   language: 'en-us',
-  theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  theme: 'dark', // system, dark or light
+  siteUrl: 'https://journeybeyondcode.netlify.app/',
+  siteRepo: '',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  x: 'https://twitter.com/x',
-  // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
+  mastodon: '',
+  email: 'sujeets207@gmail.com',
+  github: 'https://github.com/powerfist01',
+  x: 'https://twitter.com/powerfist01',
+  facebook: 'https://facebook.com/powerfist01',
+  youtube: '',
+  linkedin: 'https://www.linkedin.com/in/powerfist01',
+  threads: '',
+  instagram: 'https://www.instagram.com/sujeetsingh_7',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -46,7 +46,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: '',
   },
   comments: {
     // If you want to use an analytics provider you have to add it to the
